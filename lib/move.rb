@@ -12,7 +12,6 @@ def input_to_index(input)
   output = input.to_i
   output += 1
   return output
-  
 end
 
 def move
