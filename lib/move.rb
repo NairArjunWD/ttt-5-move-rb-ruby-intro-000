@@ -8,15 +8,13 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  [puts "1"
-  puts "2"
-  puts "3"
-  puts "4"
-  puts "5".to_i
-  puts "6"
-  puts "7"
-  puts "8"
-  puts "9"]
-  
+  [puts "1", "2", "3", "4", "5", "6", "7", "9"]
   
 end
+
+board = [" ", " ", " "]
+def update_array_at_with(array, i, value)
+  array[index] = value
+end
+
+update_array_at_with(board, 0, "X")
