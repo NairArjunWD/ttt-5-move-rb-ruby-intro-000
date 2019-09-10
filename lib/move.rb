@@ -9,7 +9,11 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index
-  ["1", "2", "3", "4", "5", "6", "7", "9"].to_i
+  ["1", "2", "3", "4", "5", "6", "7", "9"]
+  
+  def .to_i 
+    
+  end
 end
 
 def move
