@@ -12,9 +12,11 @@ def input_to_index(input)
   puts "2"
   puts "3"
   puts "4"
-  puts "5"
+  puts "5".to_i
   puts "6"
   puts "7"
   puts "8"
   puts "9"
+  
+  
 end
